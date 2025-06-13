@@ -16,11 +16,6 @@ This library implemented SnarkFold for Plonk in Rust with BN254/Grumpkin, a half
 # Tests 
 By default, we enable the `asm` feature of an underlying library (which boosts performance by up to 50\%).
 
-To run tests (we recommend the release mode to drastically shorten run times):
-```text
-cargo test --release
-```
-
 To run an example: (we recommend the release mode to drastically shorten run times):
 ```text
 cargo run --release --example groth16
