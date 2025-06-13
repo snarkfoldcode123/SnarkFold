@@ -1,7 +1,5 @@
 # SnarkFold
-SnarkFold: A novel proof aggregation scheme based on the folding scheme
 
-# Introduction
 SnarkFold is a novel SNARK-proof aggregation scheme based on the folding scheme proposed in [Nova](https://par.nsf.gov/servlets/purl/10440508). It offers constant aggregated proof size and constant verification time. SnarkFold adopts incrementally verifiable computation (IVC) for proof aggregation.
 
 
