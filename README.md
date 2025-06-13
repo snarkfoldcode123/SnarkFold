@@ -12,3 +12,16 @@ This library implemented SnarkFold for Plonk in Rust with BN254/Grumpkin, a half
 1. Implement the folding scheme for Plonk proof relation.
 2. Construct the recursive circuit for generating IV Proof.
 3. Implement a SNARK based on [Spartan](https://eprint.iacr.org/2019/550.pdf), to produce the final IV proof.
+
+# Tests 
+By default, we enable the `asm` feature of an underlying library (which boosts performance by up to 50\%).
+
+To run tests (we recommend the release mode to drastically shorten run times):
+```text
+cargo test --release
+```
+
+To run an example: (we recommend the release mode to drastically shorten run times):
+```text
+cargo run --release --example groth16
+```
