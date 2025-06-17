@@ -12,7 +12,7 @@ cargo run --release --example groth16
 ```
 
 
-#Results
+# Results
 We provide the primitive results of the constrain numbers and proving time of Groth16 aggregation in the below figure.
 
 <img width="323" alt="image" src="https://github.com/user-attachments/assets/f67c6b56-f9a8-4ab0-bbff-6ed76ac4ab32" />
